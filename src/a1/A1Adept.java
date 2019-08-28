@@ -30,7 +30,7 @@ public class A1Adept {
 		double price[] = new double[30];
 		double customers[] = new double[30];
 		int amount = scan.nextInt();
-		for (int i =0; i < amount; i++) {
+		for (int i = 0; i < amount; i++) {
 			String name = scan.next();
 			items[i] = name;
 			double itemPrice = scan.nextDouble();
