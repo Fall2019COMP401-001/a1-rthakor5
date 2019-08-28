@@ -21,7 +21,6 @@ public class A1Adept {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		process(scan);
-		scan.close();
 	}
 	
 	public static void process(Scanner scan) {
