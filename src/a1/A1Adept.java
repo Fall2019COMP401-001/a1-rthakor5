@@ -24,11 +24,11 @@ public class A1Adept {
 	}
 	
 	public static void scanning(Scanner scan) {
-		String firstNames[] = new String[30];
-		String lastNames[] = new String[30];
-		String items[] = new String[30];
-		double price[] = new double[30];
-		double customers[] = new double[30];
+		String firstNames[] = new String[50];
+		String lastNames[] = new String[50];
+		String items[] = new String[50];
+		double price[] = new double[50];
+		double customers[] = new double[50];
 		int amount = scan.nextInt();
 		for (int i = 0; i < amount; i++) {
 			String name = scan.next();
