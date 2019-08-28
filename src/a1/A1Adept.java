@@ -20,10 +20,10 @@ public class A1Adept {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		process(scan);
+		scanning(scan);
 	}
 	
-	public static void process(Scanner scan) {
+	public static void scanning(Scanner scan) {
 		String firstNames[] = new String[30];
 		String lastNames[] = new String[30];
 		String items[] = new String[30];
